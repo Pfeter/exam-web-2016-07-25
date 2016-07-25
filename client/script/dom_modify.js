@@ -7,7 +7,7 @@ const domModify = (function () {
   }
 
   function showDecodedMessage(decodedMessage) {
-    document.querySelector('.decoded-message').innerHTML = decodedMessage;
+    document.querySelector('.decoded-message').textContent = decodedMessage;
   }
 
   return {
